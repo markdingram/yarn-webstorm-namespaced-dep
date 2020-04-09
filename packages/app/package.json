@@ -6,7 +6,8 @@
   "private": true,
   "dependencies": {
     "@markdingram/namespaced_lib": "workspace:packages/namespaced_lib",
-    "lib": "workspace:packages/lib"
+    "lib": "workspace:packages/lib",
+    "lib3-xyz": "workspace:packages/lib3"
   },
   "scripts": {
     "hello": "yarn node index.js"

@@ -10,9 +10,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@markdingram/yarn-ws-test@workspace:.":
+"@markdingram/yarn-webstorm-namespaced-dep@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@markdingram/yarn-ws-test@workspace:."
+  resolution: "@markdingram/yarn-webstorm-namespaced-dep@workspace:."
   languageName: unknown
   linkType: soft
 
@@ -22,6 +22,13 @@ __metadata:
   dependencies:
     "@markdingram/namespaced_lib": "workspace:packages/namespaced_lib"
     lib: "workspace:packages/lib"
+    lib3-xyz: "workspace:packages/lib3"
+  languageName: unknown
+  linkType: soft
+
+"lib3-xyz@workspace:packages/lib3":
+  version: 0.0.0-use.local
+  resolution: "lib3-xyz@workspace:packages/lib3"
   languageName: unknown
   linkType: soft
 

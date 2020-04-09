@@ -10,4 +10,9 @@ IntelliSense doesn't appear to work for a namespaced Yarn workspace dependency -
 'greeting2' from library '@markingram/namespaced_lib' isn't found. Note the difference in colour.
 
 
+Update
+======
 
+'greeting3' from library 'lib3-xyz' is also not found. 
+
+Seems like the workspace folder name has to equal the dependency name?
