@@ -1,0 +1,14 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@markdingram/namespaced_lib": "workspace:packages/namespaced_lib",
+    "lib": "workspace:packages/lib"
+  },
+  "scripts": {
+    "hello": "yarn node index.js"
+  }
+}
